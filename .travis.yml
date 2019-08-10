@@ -2,7 +2,7 @@ language: swift
 osx_image: xcode10.2
 xcode_workspace: fakestagram.xcworkspace
 xcode_scheme: fakestagram
-xcode_destination: platform:iOS Simulator, OS=12.2,name=iPhone Xs
+xcode_destination: platform=iOS Simulator,OS=12.2,name=iPhone Xs
 before_install:
  - pod deintegrate
  - gem install cocoapods-clean

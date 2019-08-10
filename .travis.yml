@@ -5,7 +5,7 @@ xcode_scheme: fakestagram
 xcode_destination: platform:iOS Simulator, OS=12.2,name=iPhone Xs
 before_install:
  - pod deintegrate
-   - gem install cocoapods-clean
-   - pod clean
-   - pod setup
-   - pod install
+ - gem install cocoapods-clean
+ - pod clean
+ - pod setup
+ - pod install

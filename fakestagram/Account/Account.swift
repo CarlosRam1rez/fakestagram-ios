@@ -2,7 +2,7 @@
 //  Account.swift
 //  fakestagram
 //
-//  Created by LuisE on 3/17/19.
+//  Created by Andrès Leal Giorguli on 5/25/19.
 //  Copyright © 2019 3zcurdia. All rights reserved.
 //
 
@@ -22,5 +22,9 @@ struct Account: Codable {
             deviceNumber: UIDevice.identifier,
             deviceModel: UIDevice.modelName
         )
+    }
+    
+    func toAuthor() -> Author {
+        return Author(id: id ?? "12345", name: name)
     }
 }

@@ -24,6 +24,10 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Fakestagram quiere acceder a Camara.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Fakestagram quiere acceder a Album de Fotos</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

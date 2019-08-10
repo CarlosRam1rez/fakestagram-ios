@@ -9,15 +9,15 @@
 /* Begin PBXBuildFile section */
 		06807C205FE8C18B68229A21B79F2C0A /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = B2589B67F45E9ADB32E81842A0C4FD00 /* SAMKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		0E740145DC8569F11C3D23161F42A3F3 /* SAMKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = C948EC9CB9DD448B21BA636B1CA3F65A /* SAMKeychainQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16D78E19CD7ABDD926B1FCDDC89FF818 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */; };
 		180B0BC996F28420A22940BB965F2687 /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 7842CDF5D9C5B8F5E6C9AC0D55BE1216 /* SAMKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1DC199EC3E9BB8BF22369DAA53BC26CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */; };
 		1F76FE48BAE3021631A8C0EC47758EA0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40C6FBEEEFA5DEBF6E6E83512D4F03EE /* Security.framework */; };
+		220D665A5D092384BA387CC3AE9ED4A3 /* Pods-fakestagramTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E64F123CB3E44E23F1E2260C175ACABB /* Pods-fakestagramTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2550EA80C45F86FEFB6B484590C3127B /* SAMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD0F29169576E053C7B8B1BF9CE6391 /* SAMKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F2DE653FDC005F2E921F46B3EE3E7D8 /* Pods-fakestagram-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A828A058CD621EE7E55A8272FAB56412 /* Pods-fakestagram-dummy.m */; };
+		2F2DE653FDC005F2E921F46B3EE3E7D8 /* Pods-fakestagram-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BCDA4ADEBFA1F53BA12D6B569F08CC /* Pods-fakestagram-dummy.m */; };
 		48749968F49ABC19B218B6A650DA2EFA /* SAMKeychain.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 47D44F58739B42D66D03C9DB2679A543 /* SAMKeychain.bundle */; };
-		60B1535F0454184B506512510D7A1AAD /* Pods-fakestagramTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7FBA4C9D9609E06269A6C49C7A2268 /* Pods-fakestagramTests-dummy.m */; };
-		824FE389846E821F786C40A28CC9B89E /* Pods-fakestagram-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52CE929696DF988242497BD97B506147 /* Pods-fakestagram-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B99EE1BA0DD216FDAC2CAD997C2D148 /* Pods-fakestagramTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB403A7F98A4BD89411B4A01E66348E /* Pods-fakestagramTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		824FE389846E821F786C40A28CC9B89E /* Pods-fakestagram-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5BE5AE8BF396D2FFE3A083654F55D /* Pods-fakestagram-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92501459E658B57ACA72F4283C34846A /* Pods-fakestagramTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A8492818977F5930B0AAAFD8AD5E42 /* Pods-fakestagramTests-dummy.m */; };
 		A44705A450B7BC75180A9FC266CCFB3D /* SAMKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D5E40C6946ABD9198EE8C693843813 /* SAMKeychain-dummy.m */; };
 		C050181AF88C681D976640BD1FCC41BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */; };
 		C2792E6A65FDBBF7261F1C6F21146FAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */; };
@@ -32,7 +32,14 @@
 			remoteGlobalIDString = 5572D14DECB5A676C1B31B30A3BA7F10;
 			remoteInfo = SAMKeychain;
 		};
-		884AFEAAA9BABC7BB9D24F85FC0FA992 /* PBXContainerItemProxy */ = {
+		2AB52C2ABE54E594B470E8A310D5FEA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5572D14DECB5A676C1B31B30A3BA7F10;
+			remoteInfo = SAMKeychain;
+		};
+		B3EA74B6379CB6C88D8A09BDCB147C78 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -42,48 +49,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0696A5DC8ECC044E30052A0D74D0F64D /* Pods-fakestagramTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-fakestagramTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		069B07419E1CFA99CF5BA7C4BADCC885 /* Pods-fakestagramTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fakestagramTests-Info.plist"; sourceTree = "<group>"; };
-		0D5F1BE1282A6B7129AF0DEB23DE9254 /* Pods-fakestagram-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-fakestagram-acknowledgements.markdown"; sourceTree = "<group>"; };
+		053512BAF1A5A9D43C8DBE24A968B099 /* Pods-fakestagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fakestagramTests.release.xcconfig"; sourceTree = "<group>"; };
+		13933B2BA0EA9B8C7F04CB48B4D211EC /* Pods-fakestagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fakestagramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1413B6EBAE58CA3D1EB635F37FD0D8FB /* Pods-fakestagram-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fakestagram-Info.plist"; sourceTree = "<group>"; };
 		1F30323AA9315F80C09F38F3FA4FB6DB /* Pods_fakestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_fakestagram.framework; path = "Pods-fakestagram.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD0F29169576E053C7B8B1BF9CE6391 /* SAMKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychain.h; path = Sources/SAMKeychain.h; sourceTree = "<group>"; };
-		34159D1F37B559EB450595B33E5DFDA1 /* Pods-fakestagramTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fakestagramTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		20BA74F50916A518C61868BDBE8A0A53 /* Pods-fakestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fakestagram.release.xcconfig"; sourceTree = "<group>"; };
+		2CCCF5CA7CE74E382143A3DFF0C4EAF6 /* Pods-fakestagram-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-fakestagram-frameworks.sh"; sourceTree = "<group>"; };
 		40C6FBEEEFA5DEBF6E6E83512D4F03EE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		4654A6D1DBB224F12F3ECFB6B2C5E5EE /* Pods-fakestagram-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fakestagram-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EC4B67EAF9ECA43883D249ECF3C767 /* Pods-fakestagram-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-fakestagram-frameworks.sh"; sourceTree = "<group>"; };
 		47D1FEAEC174BDAD436BEBEE93BF5261 /* SAMKeychain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMKeychain-umbrella.h"; sourceTree = "<group>"; };
 		47D44F58739B42D66D03C9DB2679A543 /* SAMKeychain.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SAMKeychain.bundle; path = Support/SAMKeychain.bundle; sourceTree = "<group>"; };
-		4B7FBA4C9D9609E06269A6C49C7A2268 /* Pods-fakestagramTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-fakestagramTests-dummy.m"; sourceTree = "<group>"; };
-		51CAE17B8712650E1BC887DA756F3722 /* Pods-fakestagram-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fakestagram-Info.plist"; sourceTree = "<group>"; };
-		52CE929696DF988242497BD97B506147 /* Pods-fakestagram-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-fakestagram-umbrella.h"; sourceTree = "<group>"; };
 		573A961D5DE750BADE6ED0F5E2D4C704 /* SAMKeychain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAMKeychain.xcconfig; sourceTree = "<group>"; };
+		583116C34718B4104B213A754C2F14AF /* Pods-fakestagramTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-fakestagramTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		59A8492818977F5930B0AAAFD8AD5E42 /* Pods-fakestagramTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-fakestagramTests-dummy.m"; sourceTree = "<group>"; };
 		612028EAFF1C2054A0EB821A9C9F2440 /* SAMKeychain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SAMKeychain.framework; path = SAMKeychain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DA9D9AF7740DC1C5F3625B92DAB141 /* SAMKeychain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SAMKeychain.modulemap; sourceTree = "<group>"; };
+		68A569029EE104E8308612D026219115 /* Pods-fakestagramTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fakestagramTests-Info.plist"; sourceTree = "<group>"; };
 		7842CDF5D9C5B8F5E6C9AC0D55BE1216 /* SAMKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychain.m; path = Sources/SAMKeychain.m; sourceTree = "<group>"; };
-		7BD995E2D60D710504E2CFD59E323056 /* Pods-fakestagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fakestagramTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7F6132F78DE0DA264B479C837EB1949A /* Pods-fakestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fakestagram.release.xcconfig"; sourceTree = "<group>"; };
 		85091EB65E8B13F9A48A8F21F35448EE /* SAMKeychain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SAMKeychain-Info.plist"; sourceTree = "<group>"; };
-		85E58FF6BE4549414B3FC4C80AE542C7 /* Pods-fakestagram.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-fakestagram.modulemap"; sourceTree = "<group>"; };
-		8DCDCCB47B3318FF60862B28E8FB750B /* Pods-fakestagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fakestagramTests.release.xcconfig"; sourceTree = "<group>"; };
+		90BCDA4ADEBFA1F53BA12D6B569F08CC /* Pods-fakestagram-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-fakestagram-dummy.m"; sourceTree = "<group>"; };
+		91F5BE5AE8BF396D2FFE3A083654F55D /* Pods-fakestagram-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-fakestagram-umbrella.h"; sourceTree = "<group>"; };
 		92D5E40C6946ABD9198EE8C693843813 /* SAMKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAMKeychain-dummy.m"; sourceTree = "<group>"; };
 		935B2EBEB5C8126CBD501146563B912A /* Pods_fakestagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_fakestagramTests.framework; path = "Pods-fakestagramTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A828A058CD621EE7E55A8272FAB56412 /* Pods-fakestagram-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-fakestagram-dummy.m"; sourceTree = "<group>"; };
-		A8B7F403FC44A82BCA56EC50DBAB970F /* Pods-fakestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fakestagram.debug.xcconfig"; sourceTree = "<group>"; };
+		ADE202199E8AE3E45C7B773CA2F823F4 /* Pods-fakestagram-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fakestagram-acknowledgements.plist"; sourceTree = "<group>"; };
 		B2589B67F45E9ADB32E81842A0C4FD00 /* SAMKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychainQuery.m; path = Sources/SAMKeychainQuery.m; sourceTree = "<group>"; };
 		C948EC9CB9DD448B21BA636B1CA3F65A /* SAMKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychainQuery.h; path = Sources/SAMKeychainQuery.h; sourceTree = "<group>"; };
-		EBAF636D947E1B1D555A852C72A2A683 /* Pods-fakestagramTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-fakestagramTests.modulemap"; sourceTree = "<group>"; };
+		D9D3551B5F195DE7A99E1E25F557E8DC /* Pods-fakestagramTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-fakestagramTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E64F123CB3E44E23F1E2260C175ACABB /* Pods-fakestagramTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-fakestagramTests-umbrella.h"; sourceTree = "<group>"; };
+		EB9CD9D588692FFC8C171E8959FC6A5E /* Pods-fakestagramTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-fakestagramTests-frameworks.sh"; sourceTree = "<group>"; };
+		ED561DD918F6540A952AB8AE94257DCF /* Pods-fakestagram.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-fakestagram.modulemap"; sourceTree = "<group>"; };
 		EF0537674118F909E1B2AFD9940729FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		EFB403A7F98A4BD89411B4A01E66348E /* Pods-fakestagramTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-fakestagramTests-umbrella.h"; sourceTree = "<group>"; };
+		F1F82FB9189506D61C6B7A94BC71DFA5 /* Pods-fakestagram-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-fakestagram-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F79885221207B69427C47E713867DFD4 /* Pods-fakestagramTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-fakestagramTests.modulemap"; sourceTree = "<group>"; };
+		F7E71CBB4B160B59D5219FC079FFBB1A /* Pods-fakestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-fakestagram.debug.xcconfig"; sourceTree = "<group>"; };
 		FE537219221E51B5D96A634A1749DEB3 /* SAMKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMKeychain-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		39AE5949FF33182B1D7754F66EE5C673 /* Frameworks */ = {
+		AF86B42766D3F39E493C994E94FB607A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16D78E19CD7ABDD926B1FCDDC89FF818 /* Foundation.framework in Frameworks */,
+				1DC199EC3E9BB8BF22369DAA53BC26CB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,15 +131,6 @@
 				6B475D44F9DE8B3EB70D1C14FDE147B9 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		18BCC1A870AFD819D21E8ADD81B1345A /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FA0E673A8A2E1BDE5F5A47FA23BEC9A3 /* Pods-fakestagram */,
-				AE7902EC427868A6BCF9E453734D30CD /* Pods-fakestagramTests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		3C4DBC08AB87A716DF40C19A80BA7E95 /* Pods */ = {
@@ -178,6 +177,15 @@
 			path = SAMKeychain;
 			sourceTree = "<group>";
 		};
+		4EE7C35955D73545FBF950BD9111503F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA24EBD84B723DF2E72AA948AC765356 /* Pods-fakestagram */,
+				C6988779A6E720A4EB3777144850697B /* Pods-fakestagramTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		6B475D44F9DE8B3EB70D1C14FDE147B9 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,20 +195,38 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		AE7902EC427868A6BCF9E453734D30CD /* Pods-fakestagramTests */ = {
+		C6988779A6E720A4EB3777144850697B /* Pods-fakestagramTests */ = {
 			isa = PBXGroup;
 			children = (
-				EBAF636D947E1B1D555A852C72A2A683 /* Pods-fakestagramTests.modulemap */,
-				0696A5DC8ECC044E30052A0D74D0F64D /* Pods-fakestagramTests-acknowledgements.markdown */,
-				34159D1F37B559EB450595B33E5DFDA1 /* Pods-fakestagramTests-acknowledgements.plist */,
-				4B7FBA4C9D9609E06269A6C49C7A2268 /* Pods-fakestagramTests-dummy.m */,
-				069B07419E1CFA99CF5BA7C4BADCC885 /* Pods-fakestagramTests-Info.plist */,
-				EFB403A7F98A4BD89411B4A01E66348E /* Pods-fakestagramTests-umbrella.h */,
-				7BD995E2D60D710504E2CFD59E323056 /* Pods-fakestagramTests.debug.xcconfig */,
-				8DCDCCB47B3318FF60862B28E8FB750B /* Pods-fakestagramTests.release.xcconfig */,
+				F79885221207B69427C47E713867DFD4 /* Pods-fakestagramTests.modulemap */,
+				583116C34718B4104B213A754C2F14AF /* Pods-fakestagramTests-acknowledgements.markdown */,
+				D9D3551B5F195DE7A99E1E25F557E8DC /* Pods-fakestagramTests-acknowledgements.plist */,
+				59A8492818977F5930B0AAAFD8AD5E42 /* Pods-fakestagramTests-dummy.m */,
+				EB9CD9D588692FFC8C171E8959FC6A5E /* Pods-fakestagramTests-frameworks.sh */,
+				68A569029EE104E8308612D026219115 /* Pods-fakestagramTests-Info.plist */,
+				E64F123CB3E44E23F1E2260C175ACABB /* Pods-fakestagramTests-umbrella.h */,
+				13933B2BA0EA9B8C7F04CB48B4D211EC /* Pods-fakestagramTests.debug.xcconfig */,
+				053512BAF1A5A9D43C8DBE24A968B099 /* Pods-fakestagramTests.release.xcconfig */,
 			);
 			name = "Pods-fakestagramTests";
 			path = "Target Support Files/Pods-fakestagramTests";
+			sourceTree = "<group>";
+		};
+		CA24EBD84B723DF2E72AA948AC765356 /* Pods-fakestagram */ = {
+			isa = PBXGroup;
+			children = (
+				ED561DD918F6540A952AB8AE94257DCF /* Pods-fakestagram.modulemap */,
+				F1F82FB9189506D61C6B7A94BC71DFA5 /* Pods-fakestagram-acknowledgements.markdown */,
+				ADE202199E8AE3E45C7B773CA2F823F4 /* Pods-fakestagram-acknowledgements.plist */,
+				90BCDA4ADEBFA1F53BA12D6B569F08CC /* Pods-fakestagram-dummy.m */,
+				2CCCF5CA7CE74E382143A3DFF0C4EAF6 /* Pods-fakestagram-frameworks.sh */,
+				1413B6EBAE58CA3D1EB635F37FD0D8FB /* Pods-fakestagram-Info.plist */,
+				91F5BE5AE8BF396D2FFE3A083654F55D /* Pods-fakestagram-umbrella.h */,
+				F7E71CBB4B160B59D5219FC079FFBB1A /* Pods-fakestagram.debug.xcconfig */,
+				20BA74F50916A518C61868BDBE8A0A53 /* Pods-fakestagram.release.xcconfig */,
+			);
+			name = "Pods-fakestagram";
+			path = "Target Support Files/Pods-fakestagram";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -210,38 +236,13 @@
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				3C4DBC08AB87A716DF40C19A80BA7E95 /* Pods */,
 				0A687123C95B55F2BA2F961949CDBF27 /* Products */,
-				18BCC1A870AFD819D21E8ADD81B1345A /* Targets Support Files */,
+				4EE7C35955D73545FBF950BD9111503F /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		FA0E673A8A2E1BDE5F5A47FA23BEC9A3 /* Pods-fakestagram */ = {
-			isa = PBXGroup;
-			children = (
-				85E58FF6BE4549414B3FC4C80AE542C7 /* Pods-fakestagram.modulemap */,
-				0D5F1BE1282A6B7129AF0DEB23DE9254 /* Pods-fakestagram-acknowledgements.markdown */,
-				4654A6D1DBB224F12F3ECFB6B2C5E5EE /* Pods-fakestagram-acknowledgements.plist */,
-				A828A058CD621EE7E55A8272FAB56412 /* Pods-fakestagram-dummy.m */,
-				46EC4B67EAF9ECA43883D249ECF3C767 /* Pods-fakestagram-frameworks.sh */,
-				51CAE17B8712650E1BC887DA756F3722 /* Pods-fakestagram-Info.plist */,
-				52CE929696DF988242497BD97B506147 /* Pods-fakestagram-umbrella.h */,
-				A8B7F403FC44A82BCA56EC50DBAB970F /* Pods-fakestagram.debug.xcconfig */,
-				7F6132F78DE0DA264B479C837EB1949A /* Pods-fakestagram.release.xcconfig */,
-			);
-			name = "Pods-fakestagram";
-			path = "Target Support Files/Pods-fakestagram";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8610FA20E8FD52BBDC64464810826E29 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B99EE1BA0DD216FDAC2CAD997C2D148 /* Pods-fakestagramTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		ADEF261B253DB102D68EBF8E235DA9FF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -260,22 +261,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FAECBD67728ABD6661E26EE5ED3B4DD9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220D665A5D092384BA387CC3AE9ED4A3 /* Pods-fakestagramTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		37DFBE9967A351080A46211968162EDE /* Pods-fakestagramTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 56A962CE6602263B8AA3CAAB9CC1388A /* Build configuration list for PBXNativeTarget "Pods-fakestagramTests" */;
+			buildConfigurationList = C0F17D94C8DCB7DC7BE14FD42B2F0298 /* Build configuration list for PBXNativeTarget "Pods-fakestagramTests" */;
 			buildPhases = (
-				8610FA20E8FD52BBDC64464810826E29 /* Headers */,
-				4B60437D9E98E2111F162130E3688DB3 /* Sources */,
-				39AE5949FF33182B1D7754F66EE5C673 /* Frameworks */,
-				C0C9A6D7A0924FCDF1330591A6CEEE68 /* Resources */,
+				FAECBD67728ABD6661E26EE5ED3B4DD9 /* Headers */,
+				C385358C4AEC3EA80D6B2C5D56F6F4EB /* Sources */,
+				AF86B42766D3F39E493C994E94FB607A /* Frameworks */,
+				3AB180E20CDB646B0901370508D8154D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AEAADFBABD6C25EA5F19008892E4D453 /* PBXTargetDependency */,
+				FAE34916944881F4D7043184E4573E85 /* PBXTargetDependency */,
+				BC041C7C33DF9FFE22D76A65A0997A7A /* PBXTargetDependency */,
 			);
 			name = "Pods-fakestagramTests";
 			productName = "Pods-fakestagramTests";
@@ -348,14 +358,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BE5AC97192CFD183414F38C0752E98D7 /* Resources */ = {
+		3AB180E20CDB646B0901370508D8154D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0C9A6D7A0924FCDF1330591A6CEEE68 /* Resources */ = {
+		BE5AC97192CFD183414F38C0752E98D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -381,14 +391,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B60437D9E98E2111F162130E3688DB3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				60B1535F0454184B506512510D7A1AAD /* Pods-fakestagramTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A63338510D2B653EDCDA5C95CBFCA292 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -396,6 +398,14 @@
 				A44705A450B7BC75180A9FC266CCFB3D /* SAMKeychain-dummy.m in Sources */,
 				180B0BC996F28420A22940BB965F2687 /* SAMKeychain.m in Sources */,
 				06807C205FE8C18B68229A21B79F2C0A /* SAMKeychainQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C385358C4AEC3EA80D6B2C5D56F6F4EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92501459E658B57ACA72F4283C34846A /* Pods-fakestagramTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,92 +418,21 @@
 			target = 5572D14DECB5A676C1B31B30A3BA7F10 /* SAMKeychain */;
 			targetProxy = 17414ED8749102A3FA2A67AFBD067C61 /* PBXContainerItemProxy */;
 		};
-		AEAADFBABD6C25EA5F19008892E4D453 /* PBXTargetDependency */ = {
+		BC041C7C33DF9FFE22D76A65A0997A7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAMKeychain;
+			target = 5572D14DECB5A676C1B31B30A3BA7F10 /* SAMKeychain */;
+			targetProxy = 2AB52C2ABE54E594B470E8A310D5FEA0 /* PBXContainerItemProxy */;
+		};
+		FAE34916944881F4D7043184E4573E85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-fakestagram";
 			target = 61AEDBBA57E392B1F205C81674A649D6 /* Pods-fakestagram */;
-			targetProxy = 884AFEAAA9BABC7BB9D24F85FC0FA992 /* PBXContainerItemProxy */;
+			targetProxy = B3EA74B6379CB6C88D8A09BDCB147C78 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		16CAD2F634E5DEECAA06C6891FB23C53 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BD995E2D60D710504E2CFD59E323056 /* Pods-fakestagramTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-fakestagramTests/Pods-fakestagramTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-fakestagramTests/Pods-fakestagramTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		188CCFF44A4F6D55251842A4CAEDF377 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DCDCCB47B3318FF60862B28E8FB750B /* Pods-fakestagramTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-fakestagramTests/Pods-fakestagramTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-fakestagramTests/Pods-fakestagramTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -556,7 +495,7 @@
 		};
 		345795F46B62D188C4B1602A72A73538 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F6132F78DE0DA264B479C837EB1949A /* Pods-fakestagram.release.xcconfig */;
+			baseConfigurationReference = 20BA74F50916A518C61868BDBE8A0A53 /* Pods-fakestagram.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -631,7 +570,7 @@
 		};
 		668F00CC567B27A008103A7C0F6C821C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8B7F403FC44A82BCA56EC50DBAB970F /* Pods-fakestagram.debug.xcconfig */;
+			baseConfigurationReference = F7E71CBB4B160B59D5219FC079FFBB1A /* Pods-fakestagram.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -654,6 +593,83 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-fakestagram/Pods-fakestagram.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B073DE49A189C465CD5E4D22A34B0DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 053512BAF1A5A9D43C8DBE24A968B099 /* Pods-fakestagramTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-fakestagramTests/Pods-fakestagramTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-fakestagramTests/Pods-fakestagramTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B29205371B80CD449F5397CABA5F2835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13933B2BA0EA9B8C7F04CB48B4D211EC /* Pods-fakestagramTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-fakestagramTests/Pods-fakestagramTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-fakestagramTests/Pods-fakestagramTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -787,20 +803,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56A962CE6602263B8AA3CAAB9CC1388A /* Build configuration list for PBXNativeTarget "Pods-fakestagramTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				16CAD2F634E5DEECAA06C6891FB23C53 /* Debug */,
-				188CCFF44A4F6D55251842A4CAEDF377 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		6D0BF722BE8E60C7D236665B49E830FF /* Build configuration list for PBXNativeTarget "SAMKeychain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1AD88A410452C62B3E4A417EC40B51C /* Debug */,
 				4815426CEA7BFB9AF4AC353739E20776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0F17D94C8DCB7DC7BE14FD42B2F0298 /* Build configuration list for PBXNativeTarget "Pods-fakestagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B29205371B80CD449F5397CABA5F2835 /* Debug */,
+				B073DE49A189C465CD5E4D22A34B0DDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
